@@ -1,0 +1,75 @@
+@charset "UTF-8";
+.statement {
+  color: #333;
+  font-family: "Aldrich", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  font-style: italic;
+  font-variant: small-caps;
+  text-shadow: 0.08em 0.08em 0.08em rgba(0, 0, 0, 0.4); }
+
+.nav-logo {
+  width: 300px;
+  padding: 0.6rem; }
+
+#landing-page {
+  background: url("/img/homepage/background_alt2.jpg") no-repeat center center/cover;
+  height: 90vh; }
+
+#landing-page::before {
+  content: "";
+  display: inline-block;
+  background: rgba(1, 1, 1, 0.4);
+  height: 100%;
+  width: 100%; }
+
+#landing-page-logo-container {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  margin: auto; }
+
+#landing-page-logo {
+  position: absolute;
+  top: -70%; }
+
+#showcase {
+  font-family: "Open Sans", sans-serif; }
+  #showcase .img-showcase {
+    max-width: 100%;
+    padding: 1rem;
+    height: 500px; }
+  #showcase .showcase-heading {
+    padding: 1rem;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1rem; }
+  #showcase .showcase-paragraph {
+    padding: 0 1rem;
+    color: #666666; }
+
+#image-overview {
+  margin-top: 4rem; }
+  #image-overview .grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem; }
+    #image-overview .grid-container .image-overview-img {
+      width: 100%; }
+    #image-overview .grid-container #image-overview-img-einzelstück-1 {
+      grid-row: 1/span 3;
+      grid-column: 1; }
+    #image-overview .grid-container #image-overview-img-filler {
+      grid-row: 1;
+      grid-column: 2; }
+    #image-overview .grid-container #image-overview-img-bad {
+      grid-row: 1/2;
+      grid-column: 3; }
+    #image-overview .grid-container #image-overview-img-einzelstück-2 {
+      grid-row: 3;
+      grid-column: 2; }
+    #image-overview .grid-container #image-overview-img-plan {
+      grid-row: 3;
+      grid-column: 3; }
