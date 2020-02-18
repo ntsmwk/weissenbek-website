@@ -1,0 +1,63 @@
+.statement {
+  color: #333;
+  font-family: 'Aldrich', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  font-style: italic;
+  font-variant: small-caps;
+  text-shadow: 0.08em 0.08em 0.08em rgba(0, 0, 0, 0.4);
+}
+
+.nav-logo {
+  width: 300px;
+  padding: 0.6rem
+}
+
+#landing-page {
+  background: url('../img/homepage/background_alt2.jpg') no-repeat center center/cover;
+  height: 80vh;
+}
+
+#landing-page::before {
+  content: '';
+  display: inline-block;
+  background: rgba(1, 1, 1, 0.3);
+  height: 100%;
+  width: 100%;
+}
+
+#landing-page-logo-container {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+}
+
+#landing-page-logo {
+  position: absolute;
+  top: -70%;
+}
+
+#showcase {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.img-showcase {
+  max-width: 100%;
+  padding: 1rem;
+  height: 500px;
+}
+
+.showcase-heading {
+  padding: 1rem;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1rem;
+}
+
+.showcase-paragraph {
+
+  padding: 0 1rem;
+  color:#666666;
+}
