@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ntsmwk/weissenbek-website.git"
