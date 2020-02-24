@@ -1,26 +1,20 @@
 body {
   font-family: "Open Sans", sans-serif;
-
   // NAVIGATION
-
   #navbar {
     .active a {
       color: #2ea3f2 !important;
     }
-
     .nav-logo {
       width: 300px;
       padding: 0.6rem;
     }
   }
-
   // LANDING-PAGE
-
   #landing-page {
     background: url("/img/homepage/background_alt2.jpg") no-repeat center center/cover;
     height: 90vh;
     position: relative;
-
     &:before {
       content: "";
       position: absolute;
@@ -30,22 +24,18 @@ body {
       height: 100%;
       width: 100%;
     }
-
     #landing-page-logo-container {
       position: relative;
       width: 70%;
       height: 100%;
       margin: auto;
     }
-
     #landing-page-logo {
       position: absolute;
       top: 40%;
     }
   }
-
   // STATEMENT
-
   #statement {
     .statement {
       color: #333;
@@ -57,16 +47,13 @@ body {
       text-shadow: 0.08em 0.08em 0.08em rgba(0, 0, 0, 0.4);
     }
   }
-
   // SHOWCASE
-
   #showcase {
     .img-showcase {
       max-width: 100%;
       padding: 1rem;
       height: 500px;
     }
-
     .showcase-heading {
       padding: 1rem;
       color: #333;
@@ -74,23 +61,18 @@ body {
       font-size: 1.5rem;
       line-height: 1rem;
     }
-
     .showcase-paragraph {
       padding: 0 1rem;
       color: #666666;
     }
   }
-
   #image-overview {
     margin-top: 4rem;
-
     .img-column-1 {
       padding-right: 5rem !important;
     }
   }
-
   // FOOTER
-
   #footer {
     position: relative;
     background: url("/img/footer/carpenter-image-41.jpg") center center/cover;
@@ -98,7 +80,6 @@ body {
     padding-top: 150px;
     padding-bottom: 150px;
     color: #fff;
-
     &::before {
       content: "";
       position: absolute;
@@ -109,7 +90,6 @@ body {
       width: 100%;
     }
   }
-
   #showcase-carousel {
     .carousel-item img {
       max-height: 1100px;
@@ -117,22 +97,37 @@ body {
       margin: auto;
     }
   }
+  .showcase-gallery {
 
-  .showcase-heading {
-    margin-top: 130px !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
 
-    span {
-      font-variant-caps: small-caps;
-      font-size: 3rem;
-      font-weight: 800;
+    .showcase-heading {
+      margin-top: 130px !important;
+      font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+      font-size: 14px;
+      line-height: 1.8em;
+      background-size: initial;
+      background-position: top left;
+      background-image: url(http://tischlerei-weissenbek.at/wp-content/uploads/2019/12/Rectangle.png);
+      background-repeat: no-repeat;
+      padding-top: 24px !important;
+      padding-left: 24px !important;
+      span {
+        font-variant-caps: small-caps;
+        text-align: left;
+        font-size: 2.0rem;
+        font-weight: 900;
+      }
     }
-  }
-
-  .showcase-img {
-    min-height: 270px;
-    height: 270px;
-    min-width: 270px;
-    width: 270px;
-    margin: 2rem;
+    .showcase-img {
+      min-height: 250px;
+      height: 250px;
+      min-width: 250px;
+      width: 250px;
+      margin: 1rem;
+      box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
+    }
   }
 }

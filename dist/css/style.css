@@ -69,15 +69,30 @@ body {
     max-height: 1100px;
     min-width: auto;
     margin: auto; }
-  body .showcase-heading {
-    margin-top: 130px !important; }
-    body .showcase-heading span {
-      font-variant-caps: small-caps;
-      font-size: 3rem;
-      font-weight: 800; }
-  body .showcase-img {
-    min-height: 270px;
-    height: 270px;
-    min-width: 270px;
-    width: 270px;
-    margin: 2rem; }
+  body .showcase-gallery {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden; }
+    body .showcase-gallery .showcase-heading {
+      margin-top: 130px !important;
+      font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+      font-size: 14px;
+      line-height: 1.8em;
+      background-size: initial;
+      background-position: top left;
+      background-image: url(http://tischlerei-weissenbek.at/wp-content/uploads/2019/12/Rectangle.png);
+      background-repeat: no-repeat;
+      padding-top: 24px !important;
+      padding-left: 24px !important; }
+      body .showcase-gallery .showcase-heading span {
+        font-variant-caps: small-caps;
+        text-align: left;
+        font-size: 2.0rem;
+        font-weight: 900; }
+    body .showcase-gallery .showcase-img {
+      min-height: 250px;
+      height: 250px;
+      min-width: 250px;
+      width: 250px;
+      margin: 1rem;
+      box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3); }
