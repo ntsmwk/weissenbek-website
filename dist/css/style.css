@@ -56,6 +56,7 @@ body {
     height: 100%;
     padding-top: 150px;
     padding-bottom: 150px;
+    margin-top: 40px;
     color: #fff; }
     body #footer::before {
       content: "";
@@ -90,9 +91,9 @@ body {
         font-size: 2.0rem;
         font-weight: 900; }
     body .showcase-gallery .showcase-img {
-      min-height: 250px;
+      min-height: 150px;
       height: 250px;
-      min-width: 250px;
+      min-width: 150px;
       width: 250px;
       margin: 1rem;
       box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3); }
